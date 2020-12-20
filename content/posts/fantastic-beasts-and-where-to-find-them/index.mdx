@@ -109,12 +109,12 @@ const Post = ({ data: { post } }) => (
       {post.title}
     </Heading>
     <p
-      sx={{
+      sx={
         color: `secondary`,
         mt: 3,
         a: { color: `secondary` },
         fontSize: [1, 1, 2]
-      }}
+      }
     >
       <span>{post.date}</span>
       {post.tags && (
