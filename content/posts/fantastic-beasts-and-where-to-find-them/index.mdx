@@ -125,11 +125,11 @@ const Post = ({ data: { post } }) => (
       )}
     </p>
     <section
-      sx={{
+      sx={
         ...CodeStyles,
         my: 5,
         ".gatsby-resp-image-wrapper": { my: 5, boxShadow: `lg` },
-      }}
+      }
     >
       <MDXRenderer>{post.body}</MDXRenderer>
     </section>
